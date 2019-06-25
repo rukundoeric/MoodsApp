@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context="com.moodsapp.prestein.moodsapp.ui.activities.account_activities.for_more_info_about_app.About">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:padding="@dimen/_20sdp">
+
+           <ProgressBar
+               android:id="@+id/test_download_progress"
+               style="?android:attr/progressBarStyleHorizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <EditText
+                   android:id="@+id/test_download_url_input"
+                   android:layout_weight="1"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content" />
+               <Button
+                   android:id="@+id/test_paste_url_button"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="paste"/>
+           </LinearLayout>
+
+           <Button
+               android:id="@+id/test_download_button"
+               android:text="Start downlosd"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               />
+       </LinearLayout>
+   </ScrollView>
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:theme="@style/AppTheme.NoActionBar"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/setUp_profile_rootView"
+    android:background="#ffff"
+    tools:context=".ui.activities.login_sinup_step.FinishRegisterActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize"
+        android:orientation="vertical"
+        android:padding="@dimen/_15sdp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/set_profile_image"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/avatar_default"
+                app:civ_border_color="@color/colorPrimary"
+                tools:ignore="VectorDrawableCompat" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_35sdp"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/_6sdp"
+                android:orientation="horizontal"
+                android:background="@drawable/multple_text_back">
+                <com.moodsapp.emojis_library.Helper.EmojiconEditText
+                    android:id="@+id/set_profile_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint=" Profile name"
+                    android:paddingLeft="@dimen/_5sdp"
+                    tools:ignore="RtlHardcoded"
+                    android:textSize="@dimen/_13sdp"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    />
+                <ImageView
+                    android:id="@+id/open_emojis_on_setup_profile"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/open_emojis_in_setup_profile"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="\u2022 This is not username or pin, this the name that will be visible to your profile." />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_setup_profile_logo"/>
+
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_finish_register_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_next_write"
+        android:visibility="visible" />
+</RelativeLayout>

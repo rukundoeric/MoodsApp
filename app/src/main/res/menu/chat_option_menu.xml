@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ic_in_chat_back_id"
+        android:icon="@drawable/ic_in_chat_arrow_back_black_24dp"
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/ic_in_chat_reply_id"
+        android:icon="@drawable/ic_in_chat_reply"
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/ic_in_chat_forward_id"
+        android:icon="@drawable/ic_in_chat_forward"
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/ic_in_chat_content_copy_id"
+        android:icon="@drawable/ic_in_chat_content_copy"
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/ic_in_chat_delete_id"
+        android:icon="@drawable/ic_in_chat_delete"
+        android:title=""
+        app:showAsAction="always"/>
+
+</menu>

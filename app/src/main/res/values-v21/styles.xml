@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/download_progress_color</item>
+        <item name="android:textColorPrimaryInverse">?attr/colorControlNormal</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDa</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:statusBarColor">@color/photo_view</item>
+    </style>
+
+    <style name="SubToolBarInMainAppHome" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/tool_bar_main_color_primary</item>
+        <item name="android:textColorPrimaryInverse">?attr/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPrimaryDar</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDar</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:statusBarColor">@color/photo_view</item>
+    </style>
+
+    <style name="ThemDrawerlayout" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimaryInverse">@android:color/secondary_text_light</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:statusBarColor">@color/photo_view</item>
+    </style>
+
+    <style name="Theme.AppTheme.Light.NoActionBar.Fullscreen" parent="android:Theme.DeviceDefault.Light.NoActionBar.Fullscreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimaryInverse">@color/TextColorPrimaryInverse</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:textColorPrimary">@color/TextcolorPrimary</item>
+        <item name="android:textColorSecondary">@color/TextColorSecondary</item>
+        <item name="android:textColorSecondaryInverse">@color/TextColorSecondary</item>
+        <item name="colorAccent">@color/download_progress_color</item>
+    </style>
+
+    <style name="AppTheme.slideActivityThems">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/download_progress_color</item>
+        <item name="android:textColorPrimaryInverse">?android:attr/colorForeground</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:colorForeground" tools:ignore="PrivateResource">
+            @color/foreground_material_light
+        </item>
+        <item name="android:progressBarStyle">@style/progressBarStyle</item>
+        <item name="android:textSelectHandleLeft" tools:ignore="PrivateResource">
+            @drawable/abc_text_select_handle_left_mtrl_light
+        </item>
+        <item name="android:textSelectHandleRight" tools:ignore="PrivateResource">
+            @drawable/abc_text_select_handle_right_mtrl_light
+        </item>
+        <item name="android:textSelectHandle" tools:ignore="PrivateResource">
+            @drawable/abc_text_select_handle_middle_mtrl_light
+        </item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="AppTheme.NoActionBarFullAppStayle" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/download_progress_color</item>
+        <item name="android:textColorPrimaryInverse">?android:attr/colorForeground</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColorSecondaryInverse">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+        <item name="android:colorForeground" tools:ignore="PrivateResource">
+            @color/foreground_material_light
+        </item>
+        <item name="android:progressBarStyle">@style/progressBarStyle</item>
+        <item name="android:textSelectHandleLeft" tools:ignore="PrivateResource">
+            @drawable/abc_text_select_handle_left_mtrl_light
+        </item>
+        <item name="android:textSelectHandleRight" tools:ignore="PrivateResource">
+            @drawable/abc_text_select_handle_right_mtrl_light
+        </item>
+        <item name="android:textSelectHandle" tools:ignore="PrivateResource">
+            @drawable/abc_text_select_handle_middle_mtrl_light
+        </item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="progressBarStyle">
+        <item name="android:colorAccent">@color/colorPrimary</item>
+        <item name="android:color">@color/colorPrimary</item>
+        <item name="android:progress">@color/colorPrimary</item>
+    </style>
+
+    <style name="MediaEditorTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimaryInverse">@color/TextColorPrimaryInverse</item>
+        <item name="android:textColorPrimary">@color/TextcolorPrimary</item>
+        <item name="android:textColorSecondary">@color/TextColorSecondary</item>
+        <item name="android:textColorSecondaryInverse">@color/TextColorSecondary</item>
+        <item name="android:textColorHint">@color/colorPrimaryDar</item>
+        <item name="colorAccent">@color/download_progress_color</item>
+        <item name="android:navigationBarColor">@color/statusBarColor</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+    </style>
+</resources>

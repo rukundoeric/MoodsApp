@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference android:title="Status"
+        android:defaultValue="true"
+        android:summary="Turn it off , if you don't want to see this user's status"
+        android:key="on_or_off_user_status_in_user_profile_settingd"/>
+    <SwitchPreference
+    android:title="Mute notification"
+        android:defaultValue="false"
+    android:summary="Mute notification off"
+    android:key="mute_notification_user_settings"/>
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="Block this User"
+        android:summary="Turn on to block all messages and notification events from this user"
+        android:key="block_user_in_user_settings"/>
+</PreferenceScreen>

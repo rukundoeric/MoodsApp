@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_100sdp"
+    android:layout_height="@dimen/_100sdp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="top"
+    android:background="#ffffff">
+    <ImageView
+        android:id="@+id/video_gallery_album_item_media_photo_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:background="#5d1c2834"
+        android:orientation="horizontal" >
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_height="@dimen/_18sdp"
+            app:srcCompat="@drawable/ic_videocam_write"/>
+        <TextView
+            android:id="@+id/video_gallery_album_item_album_name"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_9sdp" />
+    </LinearLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/row_video_gallery_layout_selected_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#65000000">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_centerInParent="true"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/ic_check_write"
+            app:civ_border_color="#ffffff"
+            android:layout_margin="@dimen/_10sdp"
+            android:visibility="visible"
+            tools:ignore="VectorDrawableCompat" />
+    </RelativeLayout>
+</RelativeLayout>

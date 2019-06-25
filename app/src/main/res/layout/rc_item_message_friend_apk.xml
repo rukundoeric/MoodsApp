@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/layout_for_friend_chat_apk_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:ignore="NamespaceTypo">
+    <LinearLayout
+        style="@style/iconImageInMessageUserFriend"
+        android:layout_marginLeft="@dimen/_5sdp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_icon_for_apk_friend_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/avatar_default"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/apk_message_friend_wallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/balloon_incoming_normal"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:paddingTop="@dimen/_3sdp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_5sdp"
+            android:paddingTop="@dimen/_5sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_8sdp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@drawable/layout_transiparent_rounder_for_file_sender">
+                <ImageView
+                    android:id="@+id/app_icon_for_apk_friend"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/avatar_default"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/_5sdp">
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <com.moodsapp.emojis_library.Helper.EmojiconTextView
+                            android:id="@+id/app_name_text_view_for_apk_friend"
+                            android:layout_width="match_parent"
+                            android:textSize="@dimen/abc_chat_conversation_message_replayed_title_text_size"
+                            android:layout_height="wrap_content"
+                            android:text="App name"/>
+                        <com.moodsapp.emojis_library.Helper.EmojiconTextView
+                            android:id="@+id/app_details_for_apk_friend"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/abc_chat_conversation_message_replayed_text_size"
+                            android:text="App Details"/>
+                    </LinearLayout>
+                    <RelativeLayout
+                        android:gravity="center"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:gravity="center">
+                            <ImageView
+                                android:id="@+id/download_icon_for_item_friend_apk"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true"
+                                android:src="@drawable/inline_audio_download_normal"
+                                android:visibility="gone" />
+                         <!--   <ImageView
+                                android:id="@+id/cancel_download_icon_for_item_friend_apk"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_centerVertical="true"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/ic_icon_cancel_download_gray"
+                                android:visibility="visible" />-->
+                            <com.dinuscxj.progressbar.CircleProgressBar
+                                android:id="@+id/lauding_progress_download_apk_friend"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:background="@xml/progressbar"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:visibility="visible"
+                                app:draw_progress_text="false"
+                                app:progress_end_color="#009ee2"
+                                app:progress_start_color="#009ee2"
+                                app:progress_stroke_cap="butt"
+                                app:progress_stroke_width="3.5dp"
+                                app:progress_text_color="#009ee2" />
+                            <ProgressBar
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_centerVertical="true"
+                                android:id="@+id/progress_for_apk_downloading_in_item_friend"
+                                android:visibility="visible"
+                                android:indeterminate="true"
+                                android:indeterminateTintMode="src_atop"
+                                android:indeterminateTint="@color/download_progress_color"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                app:ignore="UnusedAttribute" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/_2sdp">
+                <com.moodsapp.emojis_library.Helper.EmojiconTextView
+                    android:id="@+id/any_message_time_in_apk_friend_text_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="13:54"
+                    android:textAllCaps="true"
+                    android:textColor="#949292"
+                    android:textSize="@dimen/abc_chat_conversation_time_text_size" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

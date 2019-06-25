@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/profile_activity_image_back"
+    tools:context="com.moodsapp.prestein.moodsapp.ui.activities.account_activities.for_my_profile.Account_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/set_profile_image_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="@dimen/_270sdp"
+                android:layout_height="@dimen/_230sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+                    <com.skyfishjy.library.RippleBackground
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="@dimen/_260sdp"
+                        android:layout_height="@dimen/_260sdp"
+                        android:gravity="center"
+                        android:id="@+id/view_my_profile_content_background_profile_picture_view"
+                        app:rb_color="#2c444c"
+                        app:rb_radius="@dimen/_43sdp"
+                        app:rb_rippleAmount="6"
+                        app:rb_duration="4000"
+                        app:rb_scale="3">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/select_image_from_view_image"
+                            android:layout_width="@dimen/_180sdp"
+                            android:layout_height="@dimen/_180sdp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/avatar_default" />
+           </com.skyfishjy.library.RippleBackground>
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="@dimen/_46sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    app:srcCompat="@drawable/ic_photo_camera"
+                    />
+ </RelativeLayout>
+   <android.support.design.widget.AppBarLayout
+       android:id="@+id/menu_item_chat_app_bar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:theme="@style/AppTheme.AppBarOverlay"
+       android:background="#fff">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:gravity="center"
+           android:padding="@dimen/_10sdp">
+           <TextView
+               android:id="@+id/profile_name_in_set_activity_account_profile"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Profile Name"
+               android:textSize="@dimen/_15sdp"
+               android:textColor="#666464"
+               android:layout_weight="1"
+               android:textStyle="bold"/>
+
+           <ImageView
+               android:layout_width="@dimen/_18sdp"
+               android:layout_height="@dimen/_18sdp"
+               app:srcCompat="@drawable/ic_edit_black_24dp"
+               android:clickable="true"
+               android:onClick="ChangeProfileName"/>
+       </LinearLayout>
+   </android.support.design.widget.AppBarLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="@dimen/_12sdp"
+       android:background="#f4f2f2">
+       <TextView
+           android:textSize="@dimen/_11sdp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/profile_home_descliption_eng"/>
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="@dimen/_12sdp"
+       android:background="@color/body_baground">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Phone Number"
+           android:textSize="@dimen/_12sdp"
+           android:textColor="@color/colorPrimary"/>
+
+       <android.support.v4.widget.Space
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/_12sdp" />
+       <TextView
+           android:id="@+id/set_phone_in_set_activity_account_profile"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Phone Number"
+           android:textSize="@dimen/_11sdp"
+           android:clickable="true"
+           />
+   </LinearLayout>
+   <android.support.v4.widget.Space
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/_7sdp"
+       android:background="@color/profile_activity_image_back"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="@dimen/_12sdp"
+       android:background="@color/body_baground">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Status"
+           android:textSize="@dimen/_12sdp"
+           android:textColor="@color/colorPrimary"/>
+
+       <android.support.v4.widget.Space
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/_12sdp" />
+
+       <TextView
+           android:id="@+id/set_status_in_set_activity_account_profile"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/status_eng"
+           android:textSize="@dimen/_11sdp"
+           />
+   </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
+
+</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

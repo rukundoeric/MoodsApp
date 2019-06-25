@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00ffffff">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/layout_rounder_for_voice_recorder">
+    <ImageView
+        android:id="@+id/take_record_dialog_close"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/ic_in_chat_take_record_dialog_close" />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="35dp"
+        android:gravity="center">
+    <ImageView
+        android:id="@+id/recording_logo_recording_dialog"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/ic_in_chat_take_voice_white_24dp" />
+</LinearLayout>
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/layout_rounder_for_voice_recorder_bottom">
+
+        <TextView
+            android:id="@+id/recording_text_view_display"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap and hold to record audio"
+            android:textSize="10dp"/>
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/text_show_record_time_duration_record_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/ic_in_chat_take_record_volume_off"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/layout_cicle_for_voice_recorder_layout">
+        <Button
+            android:id="@+id/button_record_audio_dialog"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:textColor="#fff"
+            android:background="@drawable/layout_cicle_for_voice_recorder_button"/>
+
+        <ImageView
+
+            android:id="@+id/send_voice_message"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_send_message"/>
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

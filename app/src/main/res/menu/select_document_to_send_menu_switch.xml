@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/select_document_to_send_switch_to_pdf"
+        android:title=""
+        android:icon="@drawable/icons_pdf_30px"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/select_document_to_send_switch_to_apk"
+        android:title=""
+        android:icon="@drawable/icons_apk_30px"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/select_document_to_send_switch_to_zip"
+        android:title=""
+        android:icon="@drawable/icons_zip_30px"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/select_document_to_send_switch_to_excel"
+        android:title=""
+        android:icon="@drawable/icons_mcrosoft_excel_30px"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/select_document_to_send_switch_to_power_point"
+        android:title=""
+        android:icon="@drawable/icons_microsoft_powerpoint_30px"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/select_document_to_send_switch_to_word"
+        android:title=""
+        android:icon="@drawable/icons_microsoft_word_30px"
+        app:showAsAction="always"/>
+
+</menu>

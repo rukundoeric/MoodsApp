@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        android:id="@+id/row_gallery_album_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"
+        android:scaleType="centerCrop" >
+    </ImageView>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/row_gallery_layout_selected_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#65000000">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_centerInParent="true"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/ic_check_write"
+            app:civ_border_color="#ffffff"
+            android:layout_margin="@dimen/_10sdp"
+            android:visibility="visible"
+            tools:ignore="VectorDrawableCompat" />
+    </RelativeLayout>
+</RelativeLayout>

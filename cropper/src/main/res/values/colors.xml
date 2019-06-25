@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#002c29</color>
+    <color name="colorPrimaryDa">#002c29</color>
+    <color name="colorPrimaryDark">#002c29</color>
+    <color name="colorAccent">#fcfcfc</color>
+    <color name="statusBarColor">#002724</color>
+    <color name="body_baground">#fff</color>
+    <color name="foreground_material_light">#002c29</color>
+    <color name="colorPrimaryDarkt">#002c29</color>
+    <color name="profile_activity_image_back">#f9f9f9</color>
+    <color name="photo_view">#000000</color>
+    <color name="background">#6a001211</color>
+    <color name="download_progress_color">#29b74f</color>
+
+</resources>

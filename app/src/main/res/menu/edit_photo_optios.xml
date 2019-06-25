@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+
+        android:id="@+id/id_undo_edit_photo"
+        android:title=""
+        android:icon="@drawable/ic_undo"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/id_redo_edit_photo"
+        android:title=""
+        android:icon="@drawable/ic_redo"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/id_brush_edit_photo"
+        android:title=""
+        android:icon="@drawable/ic_brush"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/id_emojicon_edit_photo"
+        android:title=""
+        android:icon="@drawable/ic_insert_emoticon"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/id_text_edit_photo"
+        android:title=""
+        android:icon="@drawable/ic_text"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/id_stickers_edit_photo"
+        android:title=""
+        android:icon="@drawable/icons_sticker"
+        app:showAsAction="always"/>
+
+
+</menu>

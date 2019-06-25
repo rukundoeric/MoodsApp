@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "542856092445",
+    "firebase_url": "https://moodsapp-ad905.firebaseio.com",
+    "project_id": "moodsapp-ad905",
+    "storage_bucket": "moodsapp-ad905.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542856092445:android:24f214f00db41b9a",
+        "android_client_info": {
+          "package_name": "com.moodsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542856092445-9v4mc448psda01h87q5tutlnqg9auc5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moodsapp",
+            "certificate_hash": "be34906d217d06ae5f99be3b5890f34b44a0edef"
+          }
+        },
+        {
+          "client_id": "542856092445-olf9ht6p7je638tqan8cuej3r8pjdss7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moodsapp",
+            "certificate_hash": "c8f0bedb6bd8bfb9caf6db3e6e32007cc6900e5f"
+          }
+        },
+        {
+          "client_id": "542856092445-v0o5fndgbochq2rbf4qr2erbrjsmgc9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX2ksrt3j00H5oOkJ1IKoYSXtS5GzpwSY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542856092445-v0o5fndgbochq2rbf4qr2erbrjsmgc9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

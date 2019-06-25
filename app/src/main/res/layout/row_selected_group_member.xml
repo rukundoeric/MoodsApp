@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/chat_text_back">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/_25sdp"
+                android:paddingBottom="@dimen/_4sdp"
+                android:paddingRight="@dimen/_4sdp">
+                <com.moodsapp.emojis_library.Helper.EmojiconTextView
+                    android:id="@+id/row_selected_member_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Profile Name"
+                    android:textSize="@dimen/_8sdp"
+                    android:ellipsize="marquee"
+                    android:layout_weight="1"
+                    android:paddingRight="@dimen/_15sdp"
+                    android:singleLine="true"
+                    android:paddingEnd="@dimen/_15sdp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    app:srcCompat="@drawable/ic_cancel_in_chat_text_enter" />
+            </LinearLayout>
+        </LinearLayout>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/row_selected_member_profile_image"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/avatar_default"/>
+    </RelativeLayout>
+</LinearLayout>

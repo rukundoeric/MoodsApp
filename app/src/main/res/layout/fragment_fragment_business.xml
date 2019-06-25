@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:theme="@style/AppTheme.NoActionBar"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp"
+    android:gravity="center"
+    tools:context="com.moodsapp.prestein.moodsapp.ui.fragment.FragmentBusiness"
+    tools:ignore="GradleDependency">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragment_contacts_information"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#002c29</color>
+    <color name="colorPrimaryDa">#002c29</color>
+    <color name="colorPrimaryDark">#002c29</color>
+    <color name="nearColorPrimary">#569f9a</color>
+    <color name="colorAccent">#fcfcfc</color>
+    <color name="statusBarColor">#002724</color>
+    <color name="body_baground">#fff</color>
+    <color name="foreground_material_light">#002c29</color>
+    <color name="colorPrimaryDarkt">#002c29</color>
+    <color name="profile_activity_image_back">#f9f9f9</color>
+    <color name="photo_view">#000000</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="background_material_light">#ffffff</color>
+    <color name="background_material_dark">#f4f4f4</color>
+    <color name="colorPrimaryDar">#959595</color>
+    <color name="tool_bar_main_color_primary">#ffffff</color>
+    <color name="sub_tool_bar_colorPrimaryDark">#bfc1c0</color>
+    <color name="TextcolorPrimary">#3a3b3b</color>
+    <color name="TextColorPrimaryInverse">#5a5a5a</color>
+    <color name="TextColorSecondary">#898a8a</color>
+    <color name="download_progress_color">#29b74f</color>
+
+    <color name="home_menu_fab_calor_normal">#002c29</color>
+    <color name="home_menu_fab_calor_pressed">#00433f</color>
+    <color name="colorDecoration1">#60a765</color>
+    <color name="colorDecoration2">#d64032</color>
+    <color name="colorDecoration3">#6376ff</color>
+    <color name="colorDecoration4">#ff9634</color>
+    <color name="colorDecoration5">#a58942</color>
+    <color name="colorDecoration6">#c96ad0</color>
+    <color name="colorDecoration7">#f0d136</color>
+    <color name="textColorLinkInMessageChat">#0088d1</color>
+    <color name="colorAssertInShare">#002c29</color>
+
+    <color name="blue_trans">#7d2d3d55</color>
+    <color name="red_trans">#92c20800</color>
+    <color name="orange_trans">#90dd5500</color>
+    <color name="dark_green_trans">#b52b622a</color>
+    <color name="green_trans">#ac4ad02f</color>
+    <color name="lose_trans">#8fad3aff</color>
+    <color name="gray_trans">#5d000000</color>
+
+    <color name="re">#8affffff</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue_color_picker">#0066FF</color>
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#FBE870</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+
+
+</resources>

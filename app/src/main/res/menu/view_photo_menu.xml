@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/change_profile_picture_icon"
+        android:title=""
+        android:icon="@drawable/ic_load_image"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/share_profile_picture_icon"
+        android:title="Share"
+        android:icon="@drawable/ic_share_photo_write"
+        app:showAsAction="never"/>
+
+</menu>

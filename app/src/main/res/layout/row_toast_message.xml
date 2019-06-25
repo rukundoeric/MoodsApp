@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/toast_layout_root_view"
+    android:layout_margin="@dimen/_17sdp"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/_9sdp"
+    android:paddingLeft="@dimen/_6sdp"
+    android:paddingBottom="@dimen/_9sdp"
+    android:paddingRight="@dimen/_11sdp"
+    android:background="@drawable/toast_back">
+    <ImageView
+        android:id="@+id/row_toast_icon"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:src="@drawable/icon_no_internet_connection"/>
+    <TextView
+        android:id="@+id/row_toast_message"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Connection failed, please try again later."/>
+</LinearLayout>

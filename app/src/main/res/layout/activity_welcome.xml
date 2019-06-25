@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Theme.AppTheme.Light.NoActionBar.Fullscreen"
+    android:background="@color/body_baground"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.moodsapp.prestein.moodsapp.ui.activities.login_sinup_step.WelcomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_67sdp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_16sdp"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp"
+            android:paddingTop="@dimen/_16sdp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/moodslogos" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/moodsapp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:maxLines="3"
+                android:text="@string/welcome_to_mooddsapp_version_1_0_1"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_11sdp"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:gravity="center"
+                android:text="Cross-platform mobile messaging and business application"
+                android:textAlignment="center"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="SpUsage" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_60sdp"
+                android:paddingRight="@dimen/_60sdp"
+                android:paddingTop="@dimen/_7sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_17sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:src="@drawable/android"
+                     />
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:background="@drawable/windows"
+                    />
+
+                <ImageView
+                    android:layout_width="@dimen/_17sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:contentDescription=""
+                    android:background="@drawable/ubuntu"
+                     />
+
+                <ImageView
+                    android:layout_width="@dimen/_17sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:background="@drawable/mac"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/terms_and_condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:maxLines="3"
+                android:text="Terms and conditions"
+                android:textAlignment="center"
+                android:textColor="#057f8e"
+                android:textSize="@dimen/_10sdp"
+                tools:ignore="SpUsage" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_44sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/body_baground"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_2sdp"
+            android:paddingLeft="@dimen/_80sdp"
+            android:paddingRight="@dimen/_80sdp"
+            android:paddingTop="@dimen/_2sdp">
+            <Button
+                android:id="@+id/google_Sin_in_btn"
+                style="@style/buttonStart" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+
+
+
+
+
+
+

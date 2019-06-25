@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">MoodsApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Strings related to login -->
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+    <string name="moodsapp">MoodsApp</string>
+    <string name="welcome_to_mooddsapp_version_1_0_1">Welcome to MooddsApp Version: 1.0.1</string>
+    <string name="profile_name_home">Profile Name</string>
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="profile_home_descliption_eng">click in the picture if you want to change your profile picture and click on edit icon if you want to change your profile name. for phone number and status click on their text </string>
+    <string name="status_eng">Hi there! am very appreciate to use MoodsApp.</string>
+    <string name="profile_name_layout_item_user_listing">Profile Name</string>
+
+
+    <string name="title_activity_get_image_from_camera_or_post">GetImageFromCameraOrPost</string>
+    <string name="title_activity_add_new_group">AddNewGroup</string>
+    <string name="title_activity_get_image_from_chat">GetImageFromChat</string>
+    <string name="title_activity_message__image__view">Message_Image_View</string>
+    <string name="title_activity_get_confirmation_my_code">GetConfirmationMyCodeActivity</string>
+    <string name="title_activity_view_message_image">ViewMessageImage</string>
+    <string name="view_contact_activity_from_chat">View Contacts</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+    <string name="title_activity_apk_list">ApkListActivity</string>
+
+    <string name="title_activity_album">AlbumActivity</string>
+    <string name="title_activity_one_pic_selector_album">OnePicSelectorAlbumActivity</string>
+    <string name="title_activity_video_gallery">VideoGalleryActivity</string>
+    <string name="title_activity_photo_view">PhotoViewActivity</string>
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+
+    <string name="title_activity_select_document_to_send">SelectDocumentToSend</string>
+    <string name="internetConnectionChecking">Connecting...</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_user_profile">UserProfileActivity</string>
+
+
+</resources>

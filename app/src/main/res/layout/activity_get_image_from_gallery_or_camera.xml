@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/FromGalleryOrCameraInChatLayout"
+    tools:context="com.moodsapp.prestein.moodsapp.ui.activities.account_activities.GetImageFromCamera">
+
+    <LinearLayout
+        android:id="@+id/layout_main_back_for_media_gonna_be_sent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#000000">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#4b000000"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:background="#00008292"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/OpenEmojisInGetImageFromGalleryOrCamera"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_insert_emoji_write"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00008292"
+                    android:layout_marginLeft="10dp">
+                    <com.moodsapp.emojis_library.Helper.EmojiconEditText
+                        android:id="@+id/ImageCommentFromGalleryOrCamera"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="Add Comment..."
+                        android:textColor="#feffffff"
+                        android:background="#01049594"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_back_for_video_gonna_be_sent"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/layout_rounder_for_any_user_retry_back">
+        <ImageView
+            android:id="@+id/play_video_in_video_gonna_be_sent"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_play_video_write"/>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sendImageChatFromGalleryOrCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_check_send_image" />
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#55000000"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarInGetImageFromGalleryOrCamera"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#00000000" />
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.moodsapp.prestein.moodsapp.ui.activities.account_activities.for_contact.All_User_Contacts">
+    <item
+        android:id="@+id/action_invite_users"
+        android:orderInCategory="100"
+        android:title="Invite users"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_menu_Refresh"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_menu_Help"
+        android:orderInCategory="100"
+        android:title="Help"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="100"
+        android:title=""
+        android:icon="@drawable/ic_youtube_searched_for_black_24dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_icon_reflesh"
+        android:orderInCategory="100"
+        android:title=""
+        android:icon="@drawable/ic_refresh_black_24dp"
+        app:showAsAction="always" />
+
+</menu>

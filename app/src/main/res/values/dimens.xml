@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">180dp</dimen>
+    <dimen name="fab_margin">@dimen/_16sdp</dimen>
+    <dimen name="google_1x">8dp</dimen>
+    <dimen name="editor_size">@dimen/_35sdp</dimen>
+
+    <dimen name="abc_customized_toolbar_title_size">@dimen/_13sdp</dimen>
+    <dimen name="abc_customized_toolbar_sub_title_size">@dimen/_11sdp</dimen>
+    <dimen name="abc_chat_conversation_message_text_size">@dimen/_12sdp</dimen>
+    <dimen name="abc_chat_conversation_time_text_size">@dimen/_9sdp</dimen>
+
+    <dimen name="abc_chat_conversation_message_replayed_text_size">@dimen/_10sdp</dimen>
+    <dimen name="abc_chat_conversation_message_replayed_title_text_size">@dimen/_11sdp</dimen>
+
+    <dimen name="abc_chat_conversation_message_status_icon_size_height">@dimen/_13sdp</dimen>
+    <dimen name="abc_chat_conversation_message_status_icon_size_width">@dimen/_16sdp</dimen>
+
+    <dimen name="design_fab_size_normal" tools:ignore="PrivateResource">@dimen/_40sdp</dimen>
+    <dimen name="design_fab_size_mini" tools:ignore="PrivateResource">@dimen/_40sdp</dimen>
+    <dimen name="abc_action_bar_content_inset_material" tools:ignore="PrivateResource">16.0dip
+    </dimen>
+    <dimen name="abc_action_bar_content_inset_with_nav" tools:ignore="PrivateResource">72.0dip
+    </dimen>
+    <dimen name="abc_action_bar_default_height_material" tools:ignore="PrivateResource">56.0dip
+    </dimen>
+    <dimen name="abc_action_bar_default_padding_end_material" tools:ignore="PrivateResource">
+        0.0dip
+    </dimen>
+    <dimen name="abc_action_bar_default_padding_start_material" tools:ignore="PrivateResource">
+        0.0dip
+    </dimen>
+    <dimen name="abc_action_bar_elevation_material" tools:ignore="PrivateResource">4.0dip</dimen>
+    <dimen name="abc_action_bar_icon_vertical_padding_material" tools:ignore="PrivateResource">
+        16.0dip
+    </dimen>
+    <dimen name="abc_action_bar_overflow_padding_end_material" tools:ignore="PrivateResource">
+        10.0dip
+    </dimen>
+    <dimen name="abc_action_bar_overflow_padding_start_material" tools:ignore="PrivateResource">
+        6.0dip
+    </dimen>
+    <dimen name="abc_action_bar_stacked_max_height" tools:ignore="PrivateResource">48.0dip</dimen>
+    <dimen name="abc_action_bar_stacked_tab_max_width" tools:ignore="PrivateResource">180.0dip
+    </dimen>
+    <dimen name="abc_action_bar_subtitle_bottom_margin_material" tools:ignore="PrivateResource">
+        5.0dip
+    </dimen>
+    <dimen name="abc_action_bar_subtitle_top_margin_material" tools:ignore="PrivateResource">
+        -3.0dip
+    </dimen>
+    <dimen name="abc_action_button_min_height_material" tools:ignore="PrivateResource">48.0dip
+    </dimen>
+    <dimen name="abc_action_button_min_width_material" tools:ignore="PrivateResource">48.0dip
+    </dimen>
+    <dimen name="abc_action_button_min_width_overflow_material" tools:ignore="PrivateResource">
+        36.0dip
+    </dimen>
+
+
+</resources>
